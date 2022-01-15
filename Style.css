@@ -164,16 +164,23 @@ th td {
   vertical-align: middle;
   border: solid 1px #852b1b;
 }
+table {
+    margin-bottom: 2em;
+}
+
 /* Contact */
 
 .phone {
   padding-bottom: 8px;
 }
-span.contactinfo2{
+span.contactinfo2 {
   font-weight: bold;
 }
 .email {
   padding-bottom: 15px;
+}
+fieldset {
+    border: 1px solid #9ed034;
 }
 legend {
   color: #4977d1;
@@ -187,12 +194,11 @@ label {
   margin: 15px 0 0 0;
   font-weight: bold;
   font-size: 0.9em;
-  margin-left: 2em;
 }
-.textbox input, 
-.radios input, 
-.selectmenu select,
-.commentbox textarea {
+form .textbox, 
+form .radios, 
+form .selectmenu,
+form .commentbox {
     margin-left: 2em;
 }
 .textbox input[type="text"], 
@@ -202,10 +208,38 @@ label {
 }
 textarea {
   width: 500px;
+  height: 200px;
+  border: 1px solid black;
 }
+
 input[type="submit"] {
   margin: 20px 0 10px 0;
-  width: 200px;
+  width: 120px;
+  height: 30px;
   background: #4977d1;
-  margin-left: 2em;
+  color: white;
+}
+form .button {
+margin-left: 26em;
+}
+form .radios label {
+    display: inline;
+    padding-top: 2em;
+}
+form .textbox {
+    margin-bottom: 20px;
+}
+form .selectmenu {
+    padding-top: 1em;
+}
+form .selectmenu label {
+    display: inline;
+}
+form .selectmenu select {
+    width: 20em;
+    border: 0.5px solid black;
+    text-indent: 80px;
+}
+form .button:hover {
+    opacity: 80%;
 }
