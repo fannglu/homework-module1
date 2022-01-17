@@ -16,6 +16,10 @@ header {
   background: no-repeat lightgrey url(images/cliff_rock.jpeg);
   background-size: 1500px;
 }
+#cliffs header {
+  background: no-repeat lightgrey url(images/forest_cliff.jpeg);
+  background-size: 1500px;
+}
 .main-header {
   background-color: rgba(255, 255, 255, 0.8);
   width: 700px;
@@ -165,7 +169,7 @@ th td {
   border: solid 1px #852b1b;
 }
 table {
-    margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 /* Contact */
@@ -180,7 +184,7 @@ span.contactinfo2 {
   padding-bottom: 15px;
 }
 fieldset {
-    border: 1px solid #9ed034;
+  border: 1px solid #9ed034;
 }
 legend {
   color: #4977d1;
@@ -195,16 +199,16 @@ label {
   font-weight: bold;
   font-size: 0.9em;
 }
-form .textbox, 
-form .radios, 
+form .textbox,
+form .radios,
 form .selectmenu,
 form .commentbox {
-    margin-left: 2em;
+  margin-left: 2em;
 }
-.textbox input[type="text"], 
-.textbox input[type="email"]{
-    width: 500px;
-    border: 1px solid black;
+.textbox input[type="text"],
+.textbox input[type="email"] {
+  width: 500px;
+  border: 1px solid black;
 }
 textarea {
   width: 500px;
@@ -220,26 +224,38 @@ input[type="submit"] {
   color: white;
 }
 form .button {
-margin-left: 26em;
+  margin-left: 26em;
 }
 form .radios label {
-    display: inline;
-    padding-top: 2em;
+  display: inline;
+  padding-top: 2em;
 }
 form .textbox {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 form .selectmenu {
-    padding-top: 1em;
+  padding-top: 1em;
 }
 form .selectmenu label {
-    display: inline;
+  display: inline;
 }
 form .selectmenu select {
-    width: 20em;
-    border: 0.5px solid black;
-    text-indent: 80px;
+  width: 20em;
+  border: 0.5px solid black;
+  text-indent: 80px;
 }
 form .button:hover {
-    opacity: 80%;
+  opacity: 80%;
+}
+/* Cliff */
+.cliffs {
+  display: flex;
+  padding-left: 200px;
+}
+figcaption {
+  font-weight: bold;
+  background: brown;
+  text-align: center;
+  padding: 8px;
+  color: white;
 }
