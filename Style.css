@@ -33,7 +33,7 @@ header {
   float: left;
 }
 /* Style clock */
-section{
+#timeofday {
   background: linear-gradient(0deg, rgba(251,215,139,1) 0%, rgba(118,213,245,1) 100%);
   text-align: center;
   padding: 1.5em;
@@ -86,7 +86,7 @@ h1 {
 }
 
 /* Partners */
-section {
+#partnersection {
   width: 100%;
   background-color: #4288c3;
 }
@@ -96,14 +96,14 @@ section #partners {
   margin: 0 auto;
   text-align: center;
 }
-section #partners .partner {
+section #partners #partner {
   display: inline-block;
   margin: 0 0.75em;
   padding: 1.3em 1.5em;
   background-color: #fff;
   border-radius: 50%;
 }
-section #partners .partner img {
+section #partners #partner img {
   width: 90px;
   height: 90px;
 }

@@ -99,9 +99,9 @@
             </div>
           </fieldset>
         </form>
-        <section>
+        <section id="partnersection">
           <ul id="partners">
-            <li class="partner">
+            <!-- <li class="partner">
               <img
                 src="images/partners/partner-bustour.png"
                 alt="Partner Bus Tours"
@@ -136,7 +136,7 @@
                 src="images/partners/partner-tourgroup.png"
                 alt="Partner Tour Group"
               />
-            </li>
+            </li> -->
           </ul>
         </section>
       </div>
@@ -164,5 +164,23 @@
       </div>
     </footer>
     <!--Footer Container Ends Here-->
+      <script>
+      // Converting partners from main to javascript 
+      var partner = [];
+      var fileNames = ['partner-bustour','partner-cabinrental','partner-campingadv','partner-collegetours','partner-rentalbike', 'partner-tourgroup'];
+      var partnerList = [];
+      var image;
+      var openList = "<li id='partner'>";
+      var closeList = "</li>";
+
+      for (var i=0; i<6; i++) {
+        partner.push("<img src='images/partners/" + fileNames[i] + ".png'>");
+        image = openList + partner[i] + closeList;
+        partnerList.push(image);
+      }
+
+      document.getElementById("partners").innerHTML = partnerList.join(" ");
+
+    </script>
   </body>
 </html>
