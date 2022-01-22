@@ -32,6 +32,18 @@ header {
   margin: 0 2em 0 0;
   float: left;
 }
+section{
+  background: linear-gradient(0deg, rgba(251,215,139,1) 0%, rgba(118,213,245,1) 100%);
+  text-align: center;
+  padding: 1.5em;
+}
+ #timeofday span {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3a3a3a;
+}
+ #timeofday #clock {
+  color: #125688;
+}
 /* Navigation */
 .main-menu {
   margin-left: 227px;
