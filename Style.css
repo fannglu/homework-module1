@@ -273,7 +273,27 @@ form .button input {
   color: #ffffff;
   border: none;
 }
-
+form .randomcode {
+  display: flex;
+  margin-left: 15em;
+}
+form .randomcode input {
+  text-align: center;
+  border: 1px black solid;
+  height: 20px;
+  margin: 2em 1.5em;
+}
+form #codes{
+  width: 5em;
+  background-color: lightgrey;
+  padding: 1em;
+  height: 1em;
+  text-align: center;
+}
+form .button #submit {
+  text-align: center;
+  margin-bottom: 2em;
+}
 /* Cliff */
 .cliffs {
   display: flex;
