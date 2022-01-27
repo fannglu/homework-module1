@@ -209,6 +209,7 @@ span.contactinfo2 {
 }
 fieldset {
   border: 1px solid #9ed034;
+  margin: 2em 5em;
 }
 legend {
   color: #4977d1;
@@ -239,16 +240,8 @@ textarea {
   height: 200px;
   border: 1px solid black;
 }
-
-input[type="submit"] {
-  margin: 20px 0 10px 0;
-  width: 120px;
-  height: 30px;
-  background: #4977d1;
-  color: white;
-}
 form .button {
-  margin-left: 26em;
+  margin-left: 24.5em;
 }
 form .radios label {
   display: inline;
@@ -270,6 +263,36 @@ form .selectmenu select {
 }
 form .button:hover {
   opacity: 80%;
+}
+form .button input {
+  width: 8em;
+  height: 2.5em;
+  font-size: 1.2em;
+  font-weight: bold;
+  /* background-color: #4977D1; */
+  color: #ffffff;
+  border: none;
+}
+form .randomcode {
+  display: flex;
+  margin-left: 15em;
+}
+form .randomcode input {
+  text-align: center;
+  border: 1px black solid;
+  height: 20px;
+  margin: 2em 1.5em;
+}
+form #codes{
+  width: 5em;
+  background-color: lightgrey;
+  padding: 1em;
+  height: 1em;
+  text-align: center;
+}
+form .button #submit {
+  text-align: center;
+  margin-bottom: 2em;
 }
 /* Cliff */
 .cliffs {
