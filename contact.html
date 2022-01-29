@@ -13,7 +13,7 @@
     <!-- link external stylesheet -->
     <link rel="stylesheet" href="Style.css" />
   </head>
-  <body id="contact">
+  <body id="contact" onLoad="disableButton(true)">
     <!--Container starts here -->
     <div id="container">
       <header>
@@ -95,7 +95,7 @@
             </div>
             <!-- Random Codes -->
             <div class="randomcode">
-              <input type="text" name="randomcode" placeholder="Enter characters">
+              <input type="text" id="codeentered"  before name="randomcode" placeholder="Enter characters">
               <p id ="codes"></p>
             </div>
 
