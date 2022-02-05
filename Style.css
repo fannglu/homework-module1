@@ -175,7 +175,7 @@ tbody{
   background: #eeffe6;
   text-align: center;
 }
-}
+
 td {
   background: #eeffe6;
   text-align: center;
@@ -186,6 +186,10 @@ th, td {
   vertical-align: middle;
   border: solid 1px #852b1b;
 }
+.tdHighlight {
+  background-color: #9ed034;
+  color: white;
+}
 th:first-child {
   width: 125px;
   height: 50px;
@@ -195,7 +199,11 @@ th:first-child {
 table {
   margin-bottom: 2em;
 }
-
+td:first-child {
+  background:  #bde1ff;
+  color:black;
+  font-weight: bold;
+}
 /* Contact */
 
 .phone {
